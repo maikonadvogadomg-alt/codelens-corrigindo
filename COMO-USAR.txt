@@ -1,0 +1,58 @@
+╔══════════════════════════════════════════════════════════╗
+║          SK DATABASE MANAGER — INSTRUÇÕES                ║
+╚══════════════════════════════════════════════════════════╝
+
+REQUISITO: Node.js instalado no computador
+  → Baixe grátis em: https://nodejs.org
+  → Clique em "LTS" (versão recomendada) e instale
+
+══════════════════════════════════════════
+
+PASSO 1 — Instalar o programa (só na primeira vez)
+
+  Abra o Prompt de Comando (CMD) nesta pasta:
+    - Clique com botão direito DENTRO desta pasta
+    - Clique em "Abrir no Terminal" ou "Abrir janela de comando aqui"
+  
+  Digite o comando abaixo e pressione Enter:
+    npm install
+
+  Aguarde terminar (aparece "added X packages")
+
+══════════════════════════════════════════
+
+PASSO 2 — Iniciar o programa
+
+  No mesmo terminal, digite:
+    node server.js
+
+  Vai aparecer:
+    ✅ Rodando em: http://localhost:3456
+
+══════════════════════════════════════════
+
+PASSO 3 — Abrir no navegador
+
+  Abra o Google Chrome e acesse:
+    http://localhost:3456
+
+  Pronto! O gerenciador vai abrir.
+
+══════════════════════════════════════════
+
+PASSO 4 — Conectar ao banco Neon
+
+  1. Acesse: https://console.neon.tech
+  2. Entre com sua conta Google
+  3. Copie a "Connection string" (começa com postgresql://)
+  4. Cole no campo do gerenciador e clique "Conectar"
+
+══════════════════════════════════════════
+
+PARA PARAR O PROGRAMA:
+  No terminal, pressione Ctrl+C
+
+PARA REINICIAR:
+  No terminal, digite: node server.js
+
+══════════════════════════════════════════
